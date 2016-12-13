@@ -1,4 +1,4 @@
-angular.module('ui-leaflet').service('leafletHelpers', function ($q, $log, $timeout) {
+angular.module('ui-leaflet').service('leafletHelpers', function ($q, $log) {
     var _errorHeader = '[ui-leaflet] ';
     var _copy = angular.copy;
     var _clone = _copy;
