@@ -145,7 +145,7 @@ angular.module('ui-leaflet').service('leafletHelpers', function ($q, $log, $time
 
         trapObj[trapField] = true;
         let ret = cbToExec();
-        $timeout(()=> {
+        setTimeout(()=> {
             trapObj[trapField] = false;
         }, _watchTrapDelayMilliSec);
         return ret;
